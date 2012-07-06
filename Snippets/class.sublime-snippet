@@ -22,6 +22,6 @@ goog.scope ->
   return
 
 ]]></content>
-  <tabTrigger>cla</tabTrigger>
+  <tabTrigger>class</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>
