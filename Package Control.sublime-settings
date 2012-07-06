@@ -1,0 +1,15 @@
+{
+	"auto_upgrade_last_run": 1341532067,
+	"installed_packages":
+	[
+		"Clipboard History",
+		"CoffeeScript",
+		"Git",
+		"JsFormat",
+		"LESS",
+		"Package Control",
+		"SideBarGit",
+		"Stylus",
+		"View In Browser"
+	]
+}

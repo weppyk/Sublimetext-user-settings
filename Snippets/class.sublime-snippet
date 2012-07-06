@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @fileoverview ${3:Foo}.
+###
+goog.provide '${1:Foo}'
+
+goog.require '${2:Foo}'
+
+###*
+  @constructor
+  @extends {${2:Foo}}
+###
+${1:Foo} = ->
+  return
+
+goog.inherits ${1:Foo}, ${2:Foo}
+  
+goog.scope ->
+  `var _ = ${1:Foo}`
+
+  return
+
+]]></content>
+  <tabTrigger>cla</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>
