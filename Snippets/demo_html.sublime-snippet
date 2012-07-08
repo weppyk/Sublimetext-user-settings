@@ -7,6 +7,7 @@
   <title>${1:foo}</title>
   <style>
   </style>
+  <script src='/assets/js/dev/livereload.js'></script>
   <script src='/assets/js/google-closure/closure/goog/base.js'></script>
   <script src='/assets/js/deps.js'></script>
   <script>
