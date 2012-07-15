@@ -1,15 +1,20 @@
 {
-	"auto_upgrade_last_run": 1341532067,
+	"auto_upgrade_last_run": 1342385820,
 	"installed_packages":
 	[
 		"Clipboard History",
 		"CoffeeScript",
 		"Git",
+		"GitHub.app Menu",
+		"Jade",
 		"JsFormat",
 		"LESS",
+		"Marked.app Menu",
 		"Package Control",
 		"SideBarGit",
 		"Stylus",
+		"sublime-github",
+		"Theme - Soda",
 		"View In Browser"
 	]
 }
