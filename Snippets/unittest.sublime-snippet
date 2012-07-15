@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+suite '${1:este.SomeClass}', ->
+  
+  ${2:SomeClass} = ${1:este.SomeClass}
+  ${3:instance} = null
+
+  setup ->
+    ${3:instance} = new ${1:este.SomeClass}
+
+  suite 'constructor', ->
+    test 'should work', ->
+      assert.instanceOf ${3:instance}, ${1:este.SomeClass}
+
+  suite 'method X', ->
+    test 'should do something', ->
+      ${3:instance}.x()
+
+]]></content>
+  <tabTrigger>unittest</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>
