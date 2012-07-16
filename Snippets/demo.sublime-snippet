@@ -19,11 +19,12 @@
   <h1>${1:foo}</h1>
   <script>
     este.dev.Monitor.create()
+
+    ${2:code}
   </script>
 </body>
 ]]></content>
-  <tabTrigger>demo.html</tabTrigger>
-  <!-- source.html does not work -->
-  <!-- <scope>source.html</scope> -->
+  <tabTrigger>demo</tabTrigger>
+  <scope>text.html</scope>
 </snippet>
  
