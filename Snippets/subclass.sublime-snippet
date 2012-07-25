@@ -5,15 +5,18 @@
 ###
 goog.provide '${1:Class}'
 
-class ${1:Class}
+goog.require '${2:Class}'
+
+class ${1:Class} extends ${2:Class}
 
   ###*
     @constructor
+    @extends {${2:Class}}
   ###
   constructor: ->
-    
+
 
 ]]></content>
-  <tabTrigger>class</tabTrigger>
+  <tabTrigger>subclass</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>

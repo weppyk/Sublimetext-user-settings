@@ -3,7 +3,7 @@
 ###*
   @type {${1:string}}
 ###
-_::${2:name}
+${2:name}: ${2:value}
 ]]></content>
   <tabTrigger>###*</tabTrigger>
   <scope>source.coffee</scope>

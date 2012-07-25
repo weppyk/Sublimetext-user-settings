@@ -1,10 +1,11 @@
 <snippet>
   <content><![CDATA[
 ###*
-  @param {${1:string}} ${2:param}
+  @param {${2:type}} ${3:name}
   @protected
 ###
-_::${3:param} = (${2:param}) ->
+${1:name}: (${3:name}) ->
+  
 ]]></content>
   <tabTrigger>###*</tabTrigger>
   <scope>source.coffee</scope>
