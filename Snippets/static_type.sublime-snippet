@@ -1,12 +1,11 @@
 <snippet>
   <content><![CDATA[
 ###*
-  @param {${2:type}} ${3:name}
+  @type {${2:type}}
 ###
-@${1:name}: (${3:name}) ->
-  
+@${1:name}: ${3:value}
 ]]></content>
-  <tabTrigger>sm</tabTrigger>
+  <tabTrigger>st</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>
  

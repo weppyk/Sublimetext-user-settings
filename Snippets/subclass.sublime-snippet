@@ -14,9 +14,7 @@ class ${1:Class} extends ${2:Class}
     @extends {${2:Class}}
   ###
   constructor: ->
-
-
-]]></content>
-  <tabTrigger>subclass</tabTrigger>
+    ]]></content>
+  <tabTrigger>sc</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>

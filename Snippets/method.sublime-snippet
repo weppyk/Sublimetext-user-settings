@@ -4,8 +4,8 @@
   @param {${2:type}} ${3:name}
 ###
 ${1:name}: (${3:name}) ->
-]]></content>
-  <tabTrigger>###*</tabTrigger>
+  ]]></content>
+  <tabTrigger>m</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>
  

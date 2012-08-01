@@ -5,9 +5,8 @@
   @protected
 ###
 ${1:name}: (${3:name}) ->
-  
-]]></content>
-  <tabTrigger>###*</tabTrigger>
+  ]]></content>
+  <tabTrigger>pm</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>
  

@@ -11,9 +11,7 @@ class ${1:Class}
     @constructor
   ###
   constructor: ->
-    
-
-]]></content>
-  <tabTrigger>class</tabTrigger>
+    ]]></content>
+  <tabTrigger>c</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>

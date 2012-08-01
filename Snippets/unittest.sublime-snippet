@@ -17,6 +17,6 @@ suite '${1:este.SomeClass}', ->
       ${3:instance}.x()
 
 ]]></content>
-  <tabTrigger>unittest</tabTrigger>
+  <tabTrigger>ut</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>
