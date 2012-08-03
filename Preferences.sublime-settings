@@ -11,7 +11,8 @@
 	],
 	"line_numbers": false,
 	"margin": 19,
+	"scroll_past_end": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"scroll_past_end": true
+	"trim_trailing_white_space_on_save": true
 }
