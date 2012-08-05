@@ -1,8 +1,9 @@
 <snippet>
   <content><![CDATA[
 suite '${1:este.SomeClass}', ->
-  
+
   ${2:SomeClass} = ${1:este.SomeClass}
+
   ${3:instance} = null
 
   setup ->
