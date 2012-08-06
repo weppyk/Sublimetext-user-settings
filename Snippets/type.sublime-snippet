@@ -3,9 +3,8 @@
 ###*
   @type {${2:string}}
 ###
-${1:name}: ${3:value}
+${1:name}: ${3:null}
 ]]></content>
   <tabTrigger>t</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>
- 

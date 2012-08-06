@@ -4,9 +4,8 @@
   @type {${2:type}}
   @protected
 ###
-${1:name}: ${3:value}
+${1:name}: ${3:null}
 ]]></content>
   <tabTrigger>pt</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>
- 
