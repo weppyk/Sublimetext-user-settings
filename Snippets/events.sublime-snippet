@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @enum {string}
+###
+@EventType:
+  ${1:NAME}: '${2:name}'
+
+]]></content>
+  <tabTrigger>e</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>
