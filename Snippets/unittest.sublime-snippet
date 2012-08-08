@@ -7,11 +7,11 @@ suite '${1:este.SomeClass}', ->
   ${3:instance} = null
 
   setup ->
-    ${3:instance} = new ${1:este.SomeClass}
+    ${3:instance} = new ${2:SomeClass}
 
   suite 'constructor', ->
     test 'should work', ->
-      assert.instanceOf ${3:instance}, ${1:este.SomeClass}
+      assert.instanceOf ${3:instance}, ${2:SomeClass}
 
   suite 'method X', ->
     test 'should do something', ->
