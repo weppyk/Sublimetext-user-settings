@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1344400407,
+	"auto_upgrade_last_run": 1345756623,
 	"installed_packages":
 	[
 		"Clipboard History",
@@ -11,6 +11,7 @@
 		"LESS",
 		"Marked.app Menu",
 		"Package Control",
+		"SideBarEnhancements",
 		"SideBarGit",
 		"Stylus",
 		"sublime-github",
