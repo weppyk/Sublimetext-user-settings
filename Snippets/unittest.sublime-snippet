@@ -13,7 +13,7 @@ suite '${1:este.SomeClass}', ->
     test 'should work', ->
       assert.instanceOf ${3:instance}, ${2:SomeClass}
 
-  suite 'method X', ->
+  suite 'x', ->
     test 'should do something', ->
       ${3:instance}.x()
 
