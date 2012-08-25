@@ -7,6 +7,7 @@
   <title>${1:foo}</title>
   <style>
   </style>
+  <link href='/assets/js/este/demos/css/default.css' rel='stylesheet'>
   <script src='/assets/js/dev/livereload.js'></script>
   <script src='/assets/js/google-closure/closure/goog/base.js'></script>
   <script src='/assets/js/deps.js'></script>
@@ -27,4 +28,3 @@
   <tabTrigger>demo</tabTrigger>
   <scope>text.html</scope>
 </snippet>
- 
