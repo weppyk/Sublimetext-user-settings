@@ -7,10 +7,19 @@
 	"gutter": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Git",
+		"SideBarGit"
 	],
 	"line_numbers": false,
 	"margin": 19,
+	"open_related_patterns":
+	[
+		[
+			"*.coffee",
+			"*_test.coffee"
+		]
+	],
 	"scroll_past_end": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
