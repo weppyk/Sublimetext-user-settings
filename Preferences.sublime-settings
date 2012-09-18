@@ -16,7 +16,8 @@
 	"open_related_patterns":
 	[
 		["*.coffee", "*_test.coffee"],
-		["*.soy", "*.js"]
+		["*.soy", "*.js"],
+		["*.styl", "*.css"]
 	],
 	"scroll_past_end": true,
 	"tab_size": 2,
