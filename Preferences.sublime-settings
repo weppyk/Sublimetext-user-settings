@@ -15,10 +15,8 @@
 	"margin": 19,
 	"open_related_patterns":
 	[
-		[
-			"*.coffee",
-			"*_test.coffee"
-		]
+		["*.coffee", "*_test.coffee"],
+		["*.soy", "*.js"]
 	],
 	"scroll_past_end": true,
 	"tab_size": 2,
