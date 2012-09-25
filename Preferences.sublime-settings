@@ -16,6 +16,7 @@
 	"open_related_patterns":
 	[
 		["*.coffee", "*_test.coffee"],
+		["*_test.coffee", "*.coffee"],
 		["*.soy", "*.js"],
 		["*.styl", "*.css"]
 	],
