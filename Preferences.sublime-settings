@@ -17,6 +17,8 @@
 	[
 		["*.coffee", "*_test.coffee"],
 		["*_test.coffee", "*.coffee"],
+		// just experiment, need to found way to show source..
+		["*.ts", "*.js"],
 		["*.soy", "*.js"],
 		["*.styl", "*.css"]
 	],
