@@ -7,20 +7,32 @@
 	"gutter": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Git",
-		"SideBarGit"
+		"Vintage"
 	],
 	"line_numbers": false,
 	"margin": 19,
 	"open_related_patterns":
 	[
-		["*.coffee", "*_test.coffee"],
-		["*_test.coffee", "*.coffee"],
-		// just experiment, need to found way to show source..
-		["*.ts", "*.js"],
-		["*.soy", "*.js"],
-		["*.styl", "*.css"]
+		[
+			"*.coffee",
+			"*_test.coffee"
+		],
+		[
+			"*_test.coffee",
+			"*.coffee"
+		],
+		[
+			"*.ts",
+			"*.js"
+		],
+		[
+			"*.soy",
+			"*.js"
+		],
+		[
+			"*.styl",
+			"*.css"
+		]
 	],
 	"scroll_past_end": true,
 	"tab_size": 2,

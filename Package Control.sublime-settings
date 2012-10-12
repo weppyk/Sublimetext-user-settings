@@ -1,24 +1,17 @@
 {
-	"auto_upgrade_last_run": 1349203817,
+	"auto_upgrade_last_run": 1350000338,
 	"installed_packages":
 	[
 		"Clipboard History",
 		"CoffeeScript",
-		"Dark Pastel Color Scheme",
-		"Git",
-		"GitHub.app Menu",
 		"Jade",
 		"JsFormat",
 		"LESS",
 		"Marked.app Menu",
 		"Open Related",
 		"Package Control",
-		"Phix Color Scheme",
-		"SideBarEnhancements",
-		"SideBarGit",
 		"Stylus",
 		"sublime-github",
-		"Theme - Soda",
 		"View In Browser"
 	]
 }
