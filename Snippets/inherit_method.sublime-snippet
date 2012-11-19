@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @inheritDoc
+###
+${1:name}: ${2:}->
+  ]]></content>
+  <tabTrigger>im</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>
