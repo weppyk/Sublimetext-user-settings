@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1350945095,
+	"auto_upgrade_last_run": 1353360501,
 	"installed_packages":
 	[
 		"Clipboard History",
@@ -11,7 +11,6 @@
 		"Open Related",
 		"Package Control",
 		"Stylus",
-		"sublime-github",
-		"View In Browser"
+		"sublime-github"
 	]
 }
