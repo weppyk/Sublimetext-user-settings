@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @override
+###
+${1:name}: ${2:}
+  ]]></content>
+  <tabTrigger>ot</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>

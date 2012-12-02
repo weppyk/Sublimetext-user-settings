@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 ###*
-  @inheritDoc
+  @override
 ###
 ${1:name}: ${2:}->
   ]]></content>
-  <tabTrigger>im</tabTrigger>
+  <tabTrigger>om</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>
