@@ -1,4 +1,5 @@
 [
-    { "keys": ["super+shift+r"], "command": "open_related" }
+    { "keys": ["super+shift+r"], "command": "open_related" },
+    { "keys": ["super+minus"], "command": "noop" }
 ]
 
