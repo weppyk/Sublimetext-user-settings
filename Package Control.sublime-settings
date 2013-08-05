@@ -1,18 +1,14 @@
 {
-	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"Apiary.io Blueprint",
-		"Clipboard History",
 		"CoffeeScript",
 		"EditorConfig",
-		"Jade",
 		"JsFormat",
 		"LESS",
-		"Marked.app Menu",
 		"Open Related",
 		"Package Control",
 		"Stylus",
-		"sublime-github"
+		"TypeScript"
 	]
 }
