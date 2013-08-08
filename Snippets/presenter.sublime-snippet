@@ -1,0 +1,42 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @fileoverview ${1:app.users.index}.Presenter.
+###
+goog.provide '${1:app.users.index}.Presenter'
+
+goog.require '${1:app.users.index}.View'
+goog.require 'este.app.Presenter'
+
+class ${1:app.users.index}.Presenter extends este.app.Presenter
+
+  ###*
+    @constructor
+    @extends {este.app.Presenter}
+  ###
+  constructor: ->
+    super()
+    @view = new ${1:app.users.index}.View
+
+  ###*
+    @override
+  ###
+  load: (params) ->
+    super params
+    ${2}
+
+  ###*
+    @override
+  ###
+  show: ->
+    ${3}
+
+  ###*
+    @override
+  ###
+  hide: ->
+    ${4}
+]]></content>
+  <tabTrigger>pr</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @fileoverview ${1:AppName}
+###
+goog.provide 'app.start'
+
+goog.require 'app.${2:feature}.index.Presenter'
+goog.require 'este.app.create'
+
+###*
+  @param {Object} data Server side JSON data.
+###
+app.start = (data) ->
+  ${3:appName}App = este.app.create '${4:app-name}', forceHash: true
+  ${3:appName}App.addRoutes
+    '/:${2:feature}': new app.${2:index}.index.Presenter
+  ${3:appName}App.run()
+
+# Ensures the symbol will be visible after compiler renaming.
+goog.exportSymbol 'app.start', app.start
+]]></content>
+  <tabTrigger>ap</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>

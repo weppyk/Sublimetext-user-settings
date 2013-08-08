@@ -1,0 +1,42 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @fileoverview ${1:app.users.index}.View.
+###
+goog.provide '${1:app.users.index}.View'
+
+goog.require '${1:app.users.index}.react'
+goog.require 'este.app.View'
+
+class ${1:app.users.index}.View extends este.app.View
+
+  ###*
+    @constructor
+    @extends {este.app.View}
+  ###
+  constructor: ->
+    super()
+
+  ###*
+    @type {React.ReactComponent}
+    @protected
+  ###
+  react: null
+
+  ###*
+    @override
+  ###
+  enterDocument: ->
+    super()
+    ${2}
+    return
+
+  ###*
+    @override
+  ###
+  update: ->
+    ${3}
+]]></content>
+  <tabTrigger>vi</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>

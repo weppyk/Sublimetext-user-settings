@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @fileoverview ${1:app.users.index}.react.
+###
+goog.provide '${1:app.users.index}.react'
+
+goog.require 'este.react'
+
+${1:app.users.index}.react = este.react.create (`/** @lends {React.ReactComponent.prototype} */`)
+
+  render: ->
+    ${2}]]></content>
+  <tabTrigger>rea</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>
