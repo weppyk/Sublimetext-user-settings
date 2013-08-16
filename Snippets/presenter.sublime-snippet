@@ -22,20 +22,13 @@ class ${1:app.users.index}.Presenter extends este.app.Presenter
     @override
   ###
   load: (params) ->
-    super params
     ${2}
 
   ###*
     @override
   ###
-  show: ->
+  show: (result) ->
     ${3}
-
-  ###*
-    @override
-  ###
-  hide: ->
-    ${4}
 ]]></content>
   <tabTrigger>pr</tabTrigger>
   <scope>source.coffee</scope>
