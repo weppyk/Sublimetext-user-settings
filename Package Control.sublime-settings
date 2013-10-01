@@ -1,13 +1,11 @@
 {
 	"installed_packages":
 	[
-		"Apiary.io Blueprint",
-		"CoffeeScript",
+		"Better CoffeeScript",
 		"EditorConfig",
 		"JsFormat",
 		"LESS",
-		"Open Related",
-		"Package Control",
+		"OpenRelated",
 		"Stylus",
 		"TypeScript"
 	]
