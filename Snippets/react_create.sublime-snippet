@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @private
+###
+create${1:name}_: ->
+  @
+]]></content>
+  <tabTrigger>rc</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>
