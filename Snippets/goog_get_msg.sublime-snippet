@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+###* @desc ${1:text} ###
+MSG_${2:name}:
+  goog.getMsg '${1:text}'
+]]></content>
+  <tabTrigger>msg</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>
