@@ -1,11 +1,8 @@
 <snippet>
   <content><![CDATA[
-###*
-  @private
-###
-create${1:name}_: ->
+render${1:Something}: ->
   @
 ]]></content>
-  <tabTrigger>rc</tabTrigger>
+  <tabTrigger>rear</tabTrigger>
   <scope>source.coffee</scope>
 </snippet>
