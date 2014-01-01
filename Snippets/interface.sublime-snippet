@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+###*
+  @fileoverview ${1:app.SomeInterface}.
+###
+goog.provide '${1:app.SomeInterface}'
+
+###*
+  @interface
+###
+${1:app.SomeInterface} = ->
+
+###*
+  @param {${3:string}} ${4:name}
+###
+${1:app.SomeInterface}::${2:doSomething}
+  ]]></content>
+  <tabTrigger>i</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>
+
